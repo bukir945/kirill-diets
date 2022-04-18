@@ -1,0 +1,108 @@
+* {
+    color: white;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background: url('../img/Фон.png') no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+.header,.main,.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.header__row {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    flex: 0 1 15%;
+}
+
+.logo__title {
+    display: flex;
+    align-items: center ;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex: 0 1 85%;
+}
+
+.logo, .nav {
+    border: 2px solid black;
+}
+
+.nav a{
+    margin: 0 15px ;
+    font-weight: 800;
+}
+
+.nav a:last-child {
+    margin: none;    
+}
+
+.nav a:first-child {
+    margin: 0 15px 0 50px;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid gold;
+    color: gold;
+}
+
+.main {
+    padding: 30px;
+    letter-spacing: 1,2px;
+}
+
+.recommendations__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendations__row, .title {
+    display: flex;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.categori {
+    margin-top: 10px;
+}
+
+.choose_diets {
+    display: flex;
+    font-weight: 800px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.categori__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categori__row__element {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 25%;
+}
